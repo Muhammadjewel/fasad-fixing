@@ -1,0 +1,11 @@
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
+<IfModule mod_headers.c>
+  <FilesMatch ".(js|css|xml|gz|html)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+  <filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
+
+</IfModule>

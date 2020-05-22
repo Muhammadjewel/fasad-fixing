@@ -1,0 +1,166 @@
+/*=====================Button Color==============================*/
+.btn-primary, .pricing_item:hover .btn {
+	color: #fff;
+	background-color: #f8b604
+}
+.btn-primary:focus, .btn-primary:hover {
+	background-color: #f8b604;
+}
+.btn-primary:active:focus, .btn-primary:active:hover {
+	background-color: #f8b604;
+	border-color: #f8b604;
+}
+
+.btn-secondary {
+	color: #fff;
+	background-color: #3f3f3f
+}
+.btn-secondary:focus, .btn-secondary:hover {
+	color: #3f3f3f;
+	background-color: transparent
+}
+.btn-default {
+	color: #fff;
+	border-color: #fff;
+	background-color: transparent
+}
+.btn-default:focus, .btn-default:hover {
+	color: #000;
+	background-color: #fff
+}
+/*=====================Nav Color==============================*/
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > li.active > a, 
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li.active > a:focus,
+.cart-nav li a:hover, .header-style3 .cart-nav li a:hover,
+.header-style3 .navbar-default .navbar-nav > li > a:hover{
+	background-color: transparent;
+	color: #f8b604
+}
+.dropdown-menu li.active a, .header-style2 .nav > li:hover > a, 
+.header-style2 .search_icon:hover, .about_us_item:hover p{
+	color: #fff !important
+}
+.header-style2 .nav.navbar-right::before {
+    border-color: transparent #f8b604 #f8b604 transparent !important;
+}
+.header-style2 .search_from_menu:before {
+    border-color: transparent #fff #fff transparent !important;
+}
+/*=====================Default Font Color==============================*/
+.color-dark, .social_icon_2 i {
+	color: #3f3f3f
+}
+.color-primary, .social_icon i:hover, .icon_primary i, 
+.color-primary-a a, .flat-primary [class^="flaticon-"]::before,
+.service-item:hover .inner-title, .service-item:hover .btn-link,
+.gallery-section .controls li.mixitup-control-active,
+.blog_post:hover a, .quick_link li a:hover, .view_category a.active,
+.page_banner_link li:last-child a, .list_style_1 li:before, 
+.list_style_2 li:before, .video_overlay span:hover:before, 
+.product_brand li:hover a, .product_category .according_title.active, 
+.conditions li.active a, .product_category li a:hover, 
+.popular_product_item:hover a, .product_item:hover .product_name a, 
+.conditions li a:hover, .sign_in_or_up_form form a:hover,
+.sidebar-item li:hover a {
+	color: #f8b604
+}
+.color-secondary, .color-secondary-a a, .icon_secondary i,
+.flat-secondary [class^="flaticon-"]::before,
+[type="checkbox"]:checked + label,
+[type="checkbox"]:checked + label.checkboxes::before,
+.owl-theme .owl-controls .owl-nav [class*="owl-"]{
+	color: #3f3f3f
+}
+.color-gray, .color-gray-a a,
+.icon_gray i, .pagination > li > a{
+	color: #a2a2a2
+}
+.flat-dark [class^="flaticon-"]::before {
+	color: #1a1a1a
+}
+/*=====================Default Background Color==============================*/
+.bg-dark{
+	background-color: #1a1a1a
+}
+footer {
+    background-color: #1a1a1a
+}
+.bg-primary, .dropdown-menu, .down_line::before,
+.service-item:hover .service_icon, .both_line:before,
+.blog_post:hover .btn-secondary, .both_line:after,
+.slider_caption .slider_title:before,
+.header-style2 .fixed-header #main_header:after,
+.about_us_item:hover, .pricing_item:hover .service_price,
+.according_title.active, .other_service li.active, 
+.other_service li:hover, .photo_gallery a:hover:after,
+.pagination > li > a:hover, .pagination > li.active > a,
+.radio_check input[type="checkbox"]:checked + label,
+[type="radio"]:checked + label.radios::after,
+.owl-theme .owl-dots .owl-dot.active span,
+.double-bounce1, .double-bounce2, .inner-title span{
+	background-color: #f8b604
+}
+.bg-secondary, .transparent_form option,
+.about_us_item:hover .down_line:before, 
+.pricing_item:hover, .feedback-sidebar .owl-dots .owl-dot span,
+.testimonials.p-0 .owl-dot span, .header-style3.fixed-header,
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover,
+.ui-widget-header, .ui-state-default, .ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default, .fixed-header #main_header:before,
+.ui-button, html .ui-button.ui-state-disabled:hover, 
+html .ui-button.ui-state-disabled:active{
+	background-color: #3f3f3f
+}
+.offer.process_item{
+	background: #f8c304
+}
+.save_money.process_item{
+	background: #f8ad04
+}
+/*=====================Border Color==============================*/
+.btn-primary, .pricing_item:hover .btn, .blog_post:hover,
+.gallery-section .controls li.mixitup-control-active,
+.our_service3 .service-item:hover .service_icon,
+.our-history .choose_resons span, .contact_icon{
+	border-color: #f8b604
+}
+.service_middle, .btn-secondary, 
+.our_service3 .service_icon,
+.project-thumbnail a.onlive::after,
+.owl-nav .owl-next, .owl-nav .owl-prev{
+	border-color: #3f3f3f
+}
+.feedback-sidebar, .woocommerce-cart-form tr:first-child, 
+.woocommerce-cart-form tbody, .quantity-nav i, 
+.product_tab_menu .tab-content, .form_2 .form-control,
+.single_product_info .stars, .single_product_categories,
+label.checkboxes::before{
+	border-color: #f5f5f5
+}
+.product_category a, .product_brand a{
+	border-color: #fff
+}
+/*=====================RGB Color==============================*/
+.overlay_secondary:before,
+.project_item2_hover,
+[type="radio"]:checked + label.radios::before{
+	background: rgba(26, 26, 26, .8)
+}
+.overlay_primary:before{
+	background: rgba(248, 182, 4, .8)
+}
+@media screen and (max-width:991px) {
+.header-style2 .navbar-nav, .header-style2 #main_header{
+	background: #3f3f3f
+}
+.header-style2 .navbar-nav li a,
+.header-style3 .dropdown-menu li a{
+	color: #fff
+}
+.dropdown-menu li.active a,
+.dropdown-menu li a:hover{
+	color: #f8b604 !important
+}
+}
