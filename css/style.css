@@ -1334,6 +1334,10 @@ span.beautypress_success_message {
 	font-weight: normal;
 }
 
+.catalog_item {
+	margin-bottom: 30px;
+}
+
 .catalog_img_wrapper {
 	position: relative;
 }
@@ -1350,4 +1354,13 @@ span.beautypress_success_message {
 	font-size: 15px;
 	color: #000;
 	font-weight: bold;
+}
+
+.catalog_details {
+	padding: 0;
+	margin-top: 50px;
+}
+
+.catalog_details h4 {
+	text-transform: initial;
 }
