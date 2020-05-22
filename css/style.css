@@ -576,7 +576,10 @@ Error page css
 }
 li.phonenumber {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
+}
+.phonenumber h4 {
+	margin-bottom: 0;
 }
 .modal .message {
 	padding: 20px 20px 10px;
@@ -1266,9 +1269,9 @@ li.phonenumber h4 a, li h4 a {
 	top: 10px;
 	width: 110px;
 }
-/* .fixed-header .fixed-header-cta-btn {
+.fixed-header .phonenumber-ul {
 	margin-top: 15px !important;
-} */
+}
 .btn-default {
     color: #fff;
     border-color: #fff;
