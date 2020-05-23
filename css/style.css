@@ -576,12 +576,21 @@ Error page css
 .bg-main2 {
 	background-color: #f8b604
 }
+.phonenumber_mobile {
+	margin-bottom: 0;
+}
 li.phonenumber {
 	display: flex;
 	align-items: center;
 }
 .phonenumber h4 {
 	margin-bottom: 0;
+	margin-right: 10px;
+}
+@media only screen and (max-width: 991px) {
+	.phonenumber-ul {
+		display: none;
+	}
 }
 .modal .message {
 	padding: 20px 20px 10px;
