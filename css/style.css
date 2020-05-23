@@ -1356,6 +1356,7 @@ span.beautypress_success_message {
 }
 
 .catalog_img_wrapper {
+	display: block;
 	position: relative;
 }
 
