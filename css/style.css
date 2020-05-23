@@ -1429,9 +1429,13 @@ span.beautypress_success_message {
 	line-height: 1.2;
 }
 
-.signup_arrow {
+.signup_arrow_right {
 	width: 250px;
 	margin-top: 20px;
+}
+
+.signup_arrow_down {
+	display: none;
 }
 
 .signup_form {
@@ -1475,10 +1479,30 @@ span.beautypress_success_message {
 	margin-bottom: 0;
 }
 
+@media screen and (max-width: 991px) {
+	.signup_arrow_right {
+		width: auto;
+		margin-top: 0;
+		height: 90px;
+	}
+}
+
+
 @media screen and (max-width: 767px) {
 	.signup_text {
-		margin-bottom: 40px;
+		margin-bottom: 20px;
 		text-align: center;
+	}
+
+	.signup_arrow_right {
+		display: none;
+	}
+
+	.signup_arrow_down {
+		display: block;
+		width: auto;
+		height: 100px;
+		margin: 0 auto 20px;
 	}
 
 	.signup_form_wrapper {
