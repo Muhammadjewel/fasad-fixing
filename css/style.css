@@ -1342,6 +1342,10 @@ span.beautypress_success_message {
 	position: relative;
 }
 
+.catalog_img {
+	object-fit: cover;
+}
+
 .catalog_price {
 	position: absolute;
 	z-index: 1;
@@ -1363,6 +1367,10 @@ span.beautypress_success_message {
 
 .catalog_details h4 {
 	text-transform: initial;
+}
+
+.catalog_details ul {
+	padding-left: 20px;
 }
 
 @media screen and (max-width: 767px) {
