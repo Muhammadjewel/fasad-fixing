@@ -1370,3 +1370,30 @@ span.beautypress_success_message {
 		margin-top: 40px;
 	}
 }
+
+/* OUR_ADVANTAGES */
+.our_advantages {
+	background-color: #000;
+	color: #fff;
+}
+
+.our_advantages h2 {
+	margin-bottom: 50px;
+	line-height: 1.2;
+	color: #fff;
+}
+
+.our_advantages h3 {
+	text-transform: initial;
+	color: #f8b604;
+}
+
+.our_advantages p + h3 {
+	margin-top: 20px;
+}
+
+@media screen and (max-width: 991px) {
+	.our_advantages_photo {
+		margin-top: 30px;
+	}
+}
