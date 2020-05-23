@@ -1466,3 +1466,15 @@ span.beautypress_success_message {
 .signup_form p:last-child {
 	margin-bottom: 0;
 }
+
+@media screen and (max-width: 767px) {
+	.signup_text {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.signup_form_wrapper {
+		float: none;
+		margin: 0 auto;
+	}
+}
