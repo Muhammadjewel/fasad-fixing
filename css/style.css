@@ -1405,3 +1405,62 @@ span.beautypress_success_message {
 		margin-top: 30px;
 	}
 }
+
+/* SIGNUP */
+.signup {
+	background-color: #000;
+	color: #fff;
+}
+
+.signup_text {
+	text-align: right;
+	font-size: 20px;
+}
+
+.signup_text_big {
+	display: block;
+	margin-top: 10px;
+	font-size: 45px;
+	line-height: 1.2;
+}
+
+.signup_form {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 20px yellow;
+	text-align: center;
+	background: url("https://picsum.photos/400") no-repeat center center / cover;
+}
+
+.signup_form::before {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	content: '';
+}
+
+.signup_form_text {
+	padding: 0 15px;
+	font-size: 18px;
+}
+
+.signup_form input {
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.signup_form button {
+	margin-bottom: 15px;
+	color: #000;
+}
+
+.signup_form p:last-child {
+	margin-bottom: 0;
+}
