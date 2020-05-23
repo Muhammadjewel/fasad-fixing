@@ -1501,3 +1501,17 @@ span.beautypress_success_message {
 		margin: 0 auto;
 	}
 }
+
+/* CATALOG_CTA */
+.catalog_cta {
+	background: url("https://picsum.photos/1100/600") no-repeat center center / cover;
+	color: #fff;
+}
+
+.catalog_cta h2 {
+	color: #fff;
+}
+
+.catalog_cta_text {
+	margin-bottom: 15px;
+}
