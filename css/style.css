@@ -1414,8 +1414,11 @@ span.beautypress_success_message {
 	color: #fff;
 }
 
-.signup_text {
+.signup_text_wrapper {
 	text-align: right;
+}
+
+.signup_text {
 	font-size: 20px;
 }
 
@@ -1424,6 +1427,11 @@ span.beautypress_success_message {
 	margin-top: 10px;
 	font-size: 45px;
 	line-height: 1.2;
+}
+
+.signup_arrow {
+	width: 250px;
+	margin-top: 20px;
 }
 
 .signup_form {
