@@ -471,11 +471,17 @@ textarea.form-control {
 /*====================================================================
 16. About Us Page css
 ====================================================================*/
+.inner-title {
+	margin-bottom: 0;
+}
 .banner-quote .quote_button {
 	animation-duration: 2s;
-	position: absolute;
-	top: 5px;
-	right: 15px
+}
+@media only screen and (max-width: 767px) {
+	.inner-title {
+		margin-bottom: 15px;
+		text-align: center;
+	}
 }
 /*----------Ineer pages of About us----------*/
 /*====================================================================
