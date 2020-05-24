@@ -1515,3 +1515,35 @@ span.beautypress_success_message {
 .catalog_cta_text {
 	margin-bottom: 15px;
 }
+
+/* CTA MODAL */
+.ctamodal .modal-content {
+	position: relative;
+	overflow: hidden;
+	border: none;
+	border-radius: 10px;
+	background: #000 url("https://picsum.photos/300/450") no-repeat center center / cover;
+}
+
+.ctamodal .modal-content::before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.5);
+	content: '';
+}
+
+.ctamodal p {
+	color: #fff;
+}
+
+.ctamodal a {
+	color: #f8b604;
+}
+
+.ctamodal .form-control {
+	border-radius: 8px;
+}

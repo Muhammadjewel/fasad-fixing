@@ -862,28 +862,25 @@
 <div aria-hidden="true" aria-labelledby="Call Back Modal" class="modal fade ctamodal" role="dialog" tabindex="-1">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
-            <div class="row">
-                <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true"><i class="fa fa-close"></i></span></button>
-                <div class="message bg-primary">
-                    <h3 class="inner-title down_line white color-white">Оставьте заявку</h3>
-                    <div class="text-area color-white mb-30" id="anptag">
-                        <p>и наши менеджеры скоро с вами свяжутся</p>
-                    </div>
-                    <form action="#" class="form cta-form" method="post">
-                        <div class="row">
-                            <div class="form-group col-md-12 col-sm-12">
-                                <input class="form-control" id="cta_name" name="name" placeholder="Имя" type="text" required="">
-                            </div>
-                            <div class="form-group col-md-12 col-sm-12">
-                                <input class="form-control" id="cta_phone" name="phone" placeholder="+998(9-)xxx-xx-xx" type="text" required="">
-                            </div>
-                            <div class="form-group col-md-12 col-sm-6 text-center">
-                                <input class="btn btn-default my-15 cta-submit" id="ctasend" type="submit" value="Отправить">
-                            </div>
-                            <input type="hidden" name="whom" id="cta_whom" placeholder="">
+            <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true"><i class="fa fa-close"></i></span></button>
+            <div class="message">
+                <h3 class="h6 inner-title down_line white color-white">Чтобы скачать каталог, укажите номер телефона</h3>
+                <p>Мы Вам отправим каталог через Telegram</p>
+                <form action="#" class="form cta-form" method="post">
+                    <div class="row">
+                        <div class="form-group col-md-12 col-sm-12">
+                            <input class="form-control" id="cta_name" name="name" placeholder="Имя" type="text" required>
                         </div>
-                    </form>
-                </div>
+                        <div class="form-group col-md-12 col-sm-12">
+                            <input class="form-control" id="cta_phone" name="phone" placeholder="+998(9-)xxx-xx-xx" type="tel" required>
+                        </div>
+                        <div class="form-group col-md-12 col-sm-6">
+                            <input class="btn btn-default btn-block my-15 cta-submit" id="ctasend" type="submit" value="Скачать каталог">
+                            <p>Нажимая на кнопку я даю согласие на <a href="#">обработку персональных данных</a></p>
+                        </div>
+                        <input type="hidden" name="whom" id="cta_whom" placeholder="">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
