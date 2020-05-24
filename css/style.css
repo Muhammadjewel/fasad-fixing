@@ -1519,6 +1519,7 @@ span.beautypress_success_message {
 /* CTA MODAL */
 .ctamodal .modal-content {
 	position: relative;
+	z-index: 1;
 	overflow: hidden;
 	border: none;
 	border-radius: 10px;
