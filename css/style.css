@@ -9,7 +9,9 @@
 /*====================================================================
 1. Default CSS
 ====================================================================*/
-
+html {
+	height: 100%;
+}
 a {
 	text-decoration: none !important;
 	outline: none
@@ -1475,6 +1477,7 @@ span.beautypress_success_message {
 .signup_form input {
 	padding: 20px;
 	border-radius: 20px;
+	color: #222;
 }
 
 .signup_form button {
@@ -1547,4 +1550,34 @@ span.beautypress_success_message {
 
 .ctamodal .form-control {
 	border-radius: 8px;
+}
+
+body {
+	height: 100%;
+}
+
+#wrapper,
+#wrapper > .row {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-content {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.thank-you {
+	flex-grow: 1;
+	margin-top: 141px;
+	background: #eee url("https://placehold.it/1280x720") no-repeat center center / cover;
+	text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+	.thank-you {
+		margin-top: 0;
+	}
 }
