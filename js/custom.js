@@ -650,6 +650,9 @@
                     success: function( result ){
                         $( '.main-form' )[0].reset( );
                         $(".OKmodal").modal("show");
+                    },
+                    complete: function () {
+                        window.location.pathname = 'thank-you.html';
                     }
                 } );
             }
@@ -680,6 +683,9 @@
                         $(".ctamodal").modal("hide");
                         $( '.cta-form' )[0].reset( );
                         $(".OKmodal").modal("show");
+                    },
+                    complete: function () {
+                        window.location.pathname = 'thank-you.html';
                     }
                 } );
             }
@@ -708,6 +714,9 @@
                     success: function( result ){
                         $( '.faq-form' )[0].reset( );
                         $(".OKmodal").modal("show");
+                    },
+                    complete: function () {
+                        window.location.pathname = 'thank-you.html';
                     }
                 } );
             }
